@@ -1,0 +1,2 @@
+[console_scripts]
+simple_avoid = px4_avoidance.simple_avoid:main

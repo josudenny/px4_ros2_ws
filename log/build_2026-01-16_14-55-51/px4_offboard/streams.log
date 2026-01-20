@@ -1,0 +1,24 @@
+[0.851s] Invoking command in '/home/josu/px4_ros2_ws/src/ROS2-PX4_Drone_Teleoperation_Using_Joystick/px4_offboard': PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/josu/px4_ros2_ws/build/px4_offboard/build install --record /home/josu/px4_ros2_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[1.052s] running egg_info
+[1.059s] writing ../../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[1.059s] writing dependency_links to ../../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[1.060s] writing entry points to ../../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[1.060s] writing requirements to ../../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[1.060s] writing top-level names to ../../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[1.081s] reading manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.081s] writing manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.082s] running build
+[1.082s] running build_py
+[1.082s] running install
+[1.085s] running install_lib
+[1.093s] running install_data
+[1.093s] running install_egg_info
+[1.102s] removing '/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.1-py3.10.egg-info' (and everything under it)
+[1.102s] Copying ../../../build/px4_offboard/px4_offboard.egg-info to /home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.1-py3.10.egg-info
+[1.103s] running install_scripts
+[1.138s] Installing position_offboard_control.py script to /home/josu/px4_ros2_ws/install/px4_offboard/lib/px4_offboard
+[1.138s] Installing teleop_joystick.py script to /home/josu/px4_ros2_ws/install/px4_offboard/lib/px4_offboard
+[1.139s] Installing teleop_keyboard.py script to /home/josu/px4_ros2_ws/install/px4_offboard/lib/px4_offboard
+[1.139s] Installing velocity_offboard_control.py script to /home/josu/px4_ros2_ws/install/px4_offboard/lib/px4_offboard
+[1.139s] writing list of installed files to '/home/josu/px4_ros2_ws/build/px4_offboard/install.log'
+[1.167s] Invoked command in '/home/josu/px4_ros2_ws/src/ROS2-PX4_Drone_Teleoperation_Using_Joystick/px4_offboard' returned '0': PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/josu/px4_ros2_ws/build/px4_offboard/build install --record /home/josu/px4_ros2_ws/build/px4_offboard/install.log --single-version-externally-managed install_data

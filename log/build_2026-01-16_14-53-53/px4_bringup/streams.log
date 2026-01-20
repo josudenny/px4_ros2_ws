@@ -1,0 +1,19 @@
+[0.538s] Invoking command in '/home/josu/px4_ros2_ws/src/ROS2-PX4_Drone_Teleoperation_Using_Joystick/px4_bringup': AMENT_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_bringup build --build-base /home/josu/px4_ros2_ws/build/px4_bringup/build install --record /home/josu/px4_ros2_ws/build/px4_bringup/install.log --single-version-externally-managed install_data
+[0.741s] running egg_info
+[0.748s] writing ../../../build/px4_bringup/px4_bringup.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../../../build/px4_bringup/px4_bringup.egg-info/dependency_links.txt
+[0.748s] writing requirements to ../../../build/px4_bringup/px4_bringup.egg-info/requires.txt
+[0.748s] writing top-level names to ../../../build/px4_bringup/px4_bringup.egg-info/top_level.txt
+[0.767s] reading manifest file '../../../build/px4_bringup/px4_bringup.egg-info/SOURCES.txt'
+[0.768s] writing manifest file '../../../build/px4_bringup/px4_bringup.egg-info/SOURCES.txt'
+[0.768s] running build
+[0.768s] running build_py
+[0.768s] running install
+[0.771s] running install_lib
+[0.778s] running install_data
+[0.778s] running install_egg_info
+[0.786s] removing '/home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages/px4_bringup-0.0.1-py3.10.egg-info' (and everything under it)
+[0.786s] Copying ../../../build/px4_bringup/px4_bringup.egg-info to /home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages/px4_bringup-0.0.1-py3.10.egg-info
+[0.787s] running install_scripts
+[0.819s] writing list of installed files to '/home/josu/px4_ros2_ws/build/px4_bringup/install.log'
+[0.842s] Invoked command in '/home/josu/px4_ros2_ws/src/ROS2-PX4_Drone_Teleoperation_Using_Joystick/px4_bringup' returned '0': AMENT_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_bringup build --build-base /home/josu/px4_ros2_ws/build/px4_bringup/build install --record /home/josu/px4_ros2_ws/build/px4_bringup/install.log --single-version-externally-managed install_data
