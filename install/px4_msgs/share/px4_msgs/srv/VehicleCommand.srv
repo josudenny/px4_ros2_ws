@@ -1,3 +1,1 @@
-VehicleCommand request
----
-VehicleCommandAck reply
+/home/josu/px4_ros2_ws/src/px4_msgs/srv/VehicleCommand.srv

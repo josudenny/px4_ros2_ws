@@ -1,2 +1,1 @@
-
-VehicleCommandAck reply
+/home/josu/px4_ros2_ws/build/px4_msgs/rosidl_cmake/srv/VehicleCommand_Response.msg

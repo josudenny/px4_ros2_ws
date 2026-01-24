@@ -1,0 +1,24 @@
+[0.576s] Invoking command in '/home/josu/px4_ros2_ws/build/px4_bringup': AMENT_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_ros_com:/home/josu/px4_ros2_ws/install/px4_bringup:/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_avoidance:/opt/ros/humble CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_ros_com LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:/home/josu/px4_ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/build/px4_offboard:/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/josu/px4_ros2_ws/install/px4_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/josu/px4_ros2_ws/build/px4_bringup/build --no-deps symlink_data
+[0.801s] running develop
+[0.937s] running egg_info
+[0.937s] creating px4_bringup.egg-info
+[0.944s] writing px4_bringup.egg-info/PKG-INFO
+[0.944s] writing dependency_links to px4_bringup.egg-info/dependency_links.txt
+[0.945s] writing requirements to px4_bringup.egg-info/requires.txt
+[0.945s] writing top-level names to px4_bringup.egg-info/top_level.txt
+[0.945s] writing manifest file 'px4_bringup.egg-info/SOURCES.txt'
+[0.962s] reading manifest file 'px4_bringup.egg-info/SOURCES.txt'
+[0.962s] writing manifest file 'px4_bringup.egg-info/SOURCES.txt'
+[0.971s] running build_ext
+[0.971s] Creating /home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages/px4-bringup.egg-link (link to .)
+[0.971s] 
+[0.971s] Installed /home/josu/px4_ros2_ws/build/px4_bringup
+[0.971s] running symlink_data
+[0.971s] creating /home/josu/px4_ros2_ws/install/px4_bringup/share/ament_index
+[0.972s] creating /home/josu/px4_ros2_ws/install/px4_bringup/share/ament_index/resource_index
+[0.972s] creating /home/josu/px4_ros2_ws/install/px4_bringup/share/ament_index/resource_index/packages
+[0.972s] symbolically linking /home/josu/px4_ros2_ws/build/px4_bringup/resource/px4_bringup -> /home/josu/px4_ros2_ws/install/px4_bringup/share/ament_index/resource_index/packages
+[0.972s] symbolically linking /home/josu/px4_ros2_ws/build/px4_bringup/package.xml -> /home/josu/px4_ros2_ws/install/px4_bringup/share/px4_bringup
+[0.972s] creating /home/josu/px4_ros2_ws/install/px4_bringup/share/px4_bringup/launch
+[0.972s] symbolically linking /home/josu/px4_ros2_ws/build/px4_bringup/launch/minimal.launch.py -> /home/josu/px4_ros2_ws/install/px4_bringup/share/px4_bringup/launch
+[1.002s] Invoked command in '/home/josu/px4_ros2_ws/build/px4_bringup' returned '0': AMENT_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_ros_com:/home/josu/px4_ros2_ws/install/px4_bringup:/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_avoidance:/opt/ros/humble CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_ros_com LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:/home/josu/px4_ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/build/px4_offboard:/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/josu/px4_ros2_ws/install/px4_bringup/lib/python3.10/site-packages:/home/josu/px4_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/josu/px4_ros2_ws/install/px4_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/josu/px4_ros2_ws/build/px4_bringup/build --no-deps symlink_data

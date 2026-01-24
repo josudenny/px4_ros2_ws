@@ -1,0 +1,139 @@
+[0.220s] Invoking command in '/home/josu/px4_ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_ros_com:/home/josu/px4_ros2_ws/install/px4_bringup:/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_avoidance:/opt/ros/humble LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:/home/josu/px4_ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/josu/px4_ros2_ws/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/josu/px4_ros2_ws/install/px4_ros_com
+[0.262s] -- The C compiler identification is GNU 11.4.0
+[0.300s] -- The CXX compiler identification is GNU 11.4.0
+[0.305s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.359s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.361s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.836s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.879s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.894s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.914s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.917s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.922s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.929s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.952s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.957s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.958s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.981s] -- Found px4_msgs: 2.0.1 (/home/josu/px4_ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.990s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.023s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.025s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.100s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.122s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.150s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.156s] -- Looking for pthread.h
+[1.207s] -- Looking for pthread.h - found
+[1.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.267s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.267s] -- Found Threads: TRUE  
+[1.300s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.315s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[1.321s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.415s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.421s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.421s] -- Configured cppcheck include dirs: /home/josu/px4_ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/josu/px4_ros2_ws/src/px4_ros_com/include/px4_ros_com>
+[1.421s] -- Configured cppcheck exclude dirs and/or files: 
+[1.423s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.423s] -- Configured cpplint exclude dirs and/or files: 
+[1.424s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.425s] -- Added test 'lint_cmake' to check CMake code style
+[1.425s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.427s] -- Added test 'uncrustify' to check C / C++ code style
+[1.427s] -- Configured uncrustify additional arguments: 
+[1.428s] -- Added test 'xmllint' to check XML markup files
+[1.429s] -- Configuring done
+[1.442s] -- Generating done
+[1.447s] -- Build files have been written to: /home/josu/px4_ros2_ws/build/px4_ros_com
+[1.454s] Invoked command in '/home/josu/px4_ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_ros_com:/home/josu/px4_ros2_ws/install/px4_bringup:/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_avoidance:/opt/ros/humble LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:/home/josu/px4_ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/josu/px4_ros2_ws/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/josu/px4_ros2_ws/install/px4_ros_com
+[1.454s] Invoking command in '/home/josu/px4_ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_ros_com:/home/josu/px4_ros2_ws/install/px4_bringup:/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_avoidance:/opt/ros/humble LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:/home/josu/px4_ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/josu/px4_ros2_ws/build/px4_ros_com -- -j12 -l12
+[1.489s] [ 25%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.490s] [ 25%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[1.490s] [ 25%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.492s] [ 33%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.494s] [ 41%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.495s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.498s] [ 50%] Built target ament_cmake_python_symlink_px4_ros_com
+[1.721s] running egg_info
+[1.721s] creating px4_ros_com.egg-info
+[1.730s] writing px4_ros_com.egg-info/PKG-INFO
+[1.730s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.731s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.731s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.766s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.767s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.809s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[5.097s] [ 58%] [32m[1mLinking CXX executable offboard_control[0m
+[5.272s] [ 66%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[5.321s] [ 66%] Built target offboard_control
+[5.421s] [ 66%] Built target debug_vect_advertiser
+[5.462s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[5.633s] [ 75%] Built target offboard_control_srv
+[6.514s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[6.697s] [ 83%] Built target frame_transforms
+[7.125s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[7.363s] [ 91%] Built target vehicle_gps_position_listener
+[8.112s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[8.329s] [100%] Built target sensor_combined_listener
+[8.336s] Invoked command in '/home/josu/px4_ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_ros_com:/home/josu/px4_ros2_ws/install/px4_bringup:/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_avoidance:/opt/ros/humble LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:/home/josu/px4_ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/josu/px4_ros2_ws/build/px4_ros_com -- -j12 -l12
+[8.337s] Invoking command in '/home/josu/px4_ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_ros_com:/home/josu/px4_ros2_ws/install/px4_bringup:/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_avoidance:/opt/ros/humble LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:/home/josu/px4_ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/josu/px4_ros2_ws/build/px4_ros_com
+[8.343s] -- Install configuration: ""
+[8.343s] -- Execute custom install script
+[8.343s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[8.349s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[8.356s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[8.361s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[8.367s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[8.373s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[8.379s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[8.385s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[8.391s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[8.397s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[8.402s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[8.407s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[8.412s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[8.418s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[8.424s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[8.430s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[8.437s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[8.443s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[8.451s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[8.458s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[8.465s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[8.471s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[8.476s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[8.482s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[8.488s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[8.494s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[8.500s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[8.505s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[8.510s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[8.515s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[8.521s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[8.529s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[8.537s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[8.543s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[8.549s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[8.554s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.561s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[8.566s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.571s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[8.577s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[8.584s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[8.591s] -- Symlinking: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[8.598s] -- Installing: /home/josu/px4_ros2_ws/install/px4_ros_com/lib/libframe_transforms.so
+[8.600s] -- Set runtime path of "/home/josu/px4_ros2_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[8.625s] Listing '/home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[8.626s] Compiling '/home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[8.626s] Compiling '/home/josu/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[8.628s] -- Installing: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[8.628s] -- Installing: /home/josu/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[8.630s] Invoked command in '/home/josu/px4_ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/josu/px4_ros2_ws/install/px4_msgs:/home/josu/px4_ros2_ws/install/px4_ros_com:/home/josu/px4_ros2_ws/install/px4_bringup:/home/josu/px4_ros2_ws/install/px4_offboard:/home/josu/px4_ros2_ws/install/px4_avoidance:/opt/ros/humble LD_LIBRARY_PATH=/home/josu/px4_ros2_ws/install/px4_msgs/lib:/home/josu/px4_ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/josu/px4_ros2_ws/build/px4_ros_com

@@ -1,0 +1,24 @@
+[0.824s] Invoking command in '/home/josu/px4_ros2_ws/build/px4_avoidance': PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/josu/px4_ros2_ws/build/px4_avoidance/build --no-deps symlink_data
+[1.061s] running develop
+[1.206s] running egg_info
+[1.206s] creating px4_avoidance.egg-info
+[1.214s] writing px4_avoidance.egg-info/PKG-INFO
+[1.214s] writing dependency_links to px4_avoidance.egg-info/dependency_links.txt
+[1.215s] writing entry points to px4_avoidance.egg-info/entry_points.txt
+[1.215s] writing requirements to px4_avoidance.egg-info/requires.txt
+[1.215s] writing top-level names to px4_avoidance.egg-info/top_level.txt
+[1.215s] writing manifest file 'px4_avoidance.egg-info/SOURCES.txt'
+[1.232s] reading manifest file 'px4_avoidance.egg-info/SOURCES.txt'
+[1.233s] writing manifest file 'px4_avoidance.egg-info/SOURCES.txt'
+[1.242s] running build_ext
+[1.242s] Creating /home/josu/px4_ros2_ws/install/px4_avoidance/lib/python3.10/site-packages/px4-avoidance.egg-link (link to .)
+[1.243s] Installing simple_avoid script to /home/josu/px4_ros2_ws/install/px4_avoidance/lib/px4_avoidance
+[1.243s] 
+[1.243s] Installed /home/josu/px4_ros2_ws/build/px4_avoidance
+[1.243s] running symlink_data
+[1.243s] creating /home/josu/px4_ros2_ws/install/px4_avoidance/share/ament_index
+[1.244s] creating /home/josu/px4_ros2_ws/install/px4_avoidance/share/ament_index/resource_index
+[1.244s] creating /home/josu/px4_ros2_ws/install/px4_avoidance/share/ament_index/resource_index/packages
+[1.244s] symbolically linking /home/josu/px4_ros2_ws/build/px4_avoidance/resource/px4_avoidance -> /home/josu/px4_ros2_ws/install/px4_avoidance/share/ament_index/resource_index/packages
+[1.244s] symbolically linking /home/josu/px4_ros2_ws/build/px4_avoidance/package.xml -> /home/josu/px4_ros2_ws/install/px4_avoidance/share/px4_avoidance
+[1.286s] Invoked command in '/home/josu/px4_ros2_ws/build/px4_avoidance' returned '0': PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/josu/px4_ros2_ws/build/px4_avoidance/build --no-deps symlink_data

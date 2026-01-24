@@ -1,0 +1,32 @@
+[0.828s] Invoking command in '/home/josu/px4_ros2_ws/build/px4_offboard': PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/josu/px4_ros2_ws/build/px4_offboard/build --no-deps symlink_data
+[1.064s] running develop
+[1.209s] running egg_info
+[1.209s] creating px4_offboard.egg-info
+[1.217s] writing px4_offboard.egg-info/PKG-INFO
+[1.218s] writing dependency_links to px4_offboard.egg-info/dependency_links.txt
+[1.218s] writing entry points to px4_offboard.egg-info/entry_points.txt
+[1.218s] writing requirements to px4_offboard.egg-info/requires.txt
+[1.218s] writing top-level names to px4_offboard.egg-info/top_level.txt
+[1.218s] writing manifest file 'px4_offboard.egg-info/SOURCES.txt'
+[1.235s] reading manifest file 'px4_offboard.egg-info/SOURCES.txt'
+[1.236s] writing manifest file 'px4_offboard.egg-info/SOURCES.txt'
+[1.245s] running build_ext
+[1.246s] Creating /home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages/px4-offboard.egg-link (link to .)
+[1.247s] Installing position_offboard_control.py script to /home/josu/px4_ros2_ws/install/px4_offboard/lib/px4_offboard
+[1.247s] Installing teleop_joystick.py script to /home/josu/px4_ros2_ws/install/px4_offboard/lib/px4_offboard
+[1.247s] Installing teleop_keyboard.py script to /home/josu/px4_ros2_ws/install/px4_offboard/lib/px4_offboard
+[1.247s] Installing velocity_offboard_control.py script to /home/josu/px4_ros2_ws/install/px4_offboard/lib/px4_offboard
+[1.247s] 
+[1.247s] Installed /home/josu/px4_ros2_ws/build/px4_offboard
+[1.247s] running symlink_data
+[1.247s] creating /home/josu/px4_ros2_ws/install/px4_offboard/share/ament_index
+[1.247s] creating /home/josu/px4_ros2_ws/install/px4_offboard/share/ament_index/resource_index
+[1.247s] creating /home/josu/px4_ros2_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[1.247s] symbolically linking /home/josu/px4_ros2_ws/build/px4_offboard/resource/px4_offboard -> /home/josu/px4_ros2_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[1.247s] symbolically linking /home/josu/px4_ros2_ws/build/px4_offboard/package.xml -> /home/josu/px4_ros2_ws/install/px4_offboard/share/px4_offboard
+[1.247s] creating /home/josu/px4_ros2_ws/install/px4_offboard/share/px4_offboard/launch
+[1.247s] symbolically linking /home/josu/px4_ros2_ws/build/px4_offboard/launch/joystick_teleop.launch.py -> /home/josu/px4_ros2_ws/install/px4_offboard/share/px4_offboard/launch
+[1.247s] symbolically linking /home/josu/px4_ros2_ws/build/px4_offboard/launch/keyboard_teleop.launch.py -> /home/josu/px4_ros2_ws/install/px4_offboard/share/px4_offboard/launch
+[1.247s] creating /home/josu/px4_ros2_ws/install/px4_offboard/share/px4_offboard/config
+[1.247s] symbolically linking /home/josu/px4_ros2_ws/build/px4_offboard/config/joy_config.yaml -> /home/josu/px4_ros2_ws/install/px4_offboard/share/px4_offboard/config
+[1.298s] Invoked command in '/home/josu/px4_ros2_ws/build/px4_offboard' returned '0': PYTHONPATH=/home/josu/px4_ros2_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josu/px4_ros2_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/josu/px4_ros2_ws/build/px4_offboard/build --no-deps symlink_data
