@@ -740,3 +740,164 @@ Windows 11
 - QGroundControl is running on Windows while PX4/ROS 2/Gazebo are running inside WSL2.
 - The ROS 2 launch file uses `gnome-terminal`, so `gnome-terminal` must remain installed.
 - The launch target `gz_x500_baylands` should be confirmed against the PX4 checkout if a future PX4 version changes available targets.
+
+
+---
+
+# 26. ROS 2 PX4 Teleoperation Repository Setup
+
+```bash
+cd ~
+mkdir -p px4_ros2_ws/src
+cd px4_ros2_ws/src
+
+git clone https://github.com/MechaMind-Labs/ROS2-PX4_Drone_Teleoperation_Using_Joystick.git --recursive
+
+cd ~/px4_ros2_ws
+sudo apt install python3-rosdep -y
+sudo rosdep init
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+
+sudo apt install colcon -y
+colcon build
+source install/setup.bash
+```
+
+# 27. PX4 Autopilot Clone and Setup
+
+```bash
+cd ~
+git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+cd ~/PX4-Autopilot
+make px4_sitl
+```
+
+For the X500 Gazebo simulation:
+
+```bash
+cd ~/PX4-Autopilot
+export PX4_NET_INTERFACE=eth0
+make px4_sitl gz_x500
+```
+
+For Baylands:
+
+```bash
+cd ~/PX4-Autopilot
+export PX4_NET_INTERFACE=eth0
+make px4_sitl gz_x500_baylands
+```
+
+# 28. Micro XRCE-DDS Agent — Build From Source
+
+```bash
+cd ~
+git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+cd ~/Micro-XRCE-DDS-Agent
+mkdir build && cd build
+cmake ..
+make
+sudo make install
+sudo ldconfig /usr/local/lib/
+```
+
+Run it with:
+
+```bash
+MicroXRCEAgent udp4 -p 8888
+```
+
+# 29. PX4 ROS 2 Message and Communication Packages
+
+```bash
+cd ~
+mkdir -p px4_ros2_ws/src
+cd px4_ros2_ws/src
+
+git clone https://github.com/PX4/px4_msgs.git
+git clone https://github.com/PX4/px4_ros_com.git
+
+cd ~/px4_ros2_ws
+colcon build
+source install/local_setup.bash
+```
+
+# 30. Important: Humble vs Jazzy
+
+The supplied tutorial commands used:
+
+```bash
+source /opt/ros/humble/setup.bash
+```
+
+That is **not appropriate for the current environment**, which is Ubuntu 24.04 + ROS 2 Jazzy. Use:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+```
+
+Therefore, replace the old verification command:
+
+```bash
+source /opt/ros/humble/setup.bash
+ros2 topic list | grep fmu
+```
+
+with:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/px4_ros2_ws/install/setup.bash
+ros2 topic list | grep fmu
+```
+
+Or, where `local_setup.bash` is used:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/px4_ros2_ws/install/local_setup.bash
+ros2 topic list | grep fmu
+```
+
+Do not install or source ROS 2 Humble on this Ubuntu 24.04 setup unless a separate project specifically requires it.
+
+# 31. Combined Jazzy Workspace Sequence
+
+```bash
+source /opt/ros/jazzy/setup.bash
+
+mkdir -p ~/px4_ros2_ws/src
+cd ~/px4_ros2_ws/src
+
+git clone https://github.com/MechaMind-Labs/ROS2-PX4_Drone_Teleoperation_Using_Joystick.git --recursive
+git clone https://github.com/PX4/px4_msgs.git
+git clone https://github.com/PX4/px4_ros_com.git
+
+cd ~/px4_ros2_ws
+sudo apt install python3-rosdep colcon -y
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+
+colcon build
+source install/setup.bash
+
+ros2 topic list | grep fmu
+```
+
+Expected architecture:
+
+```text
+PX4 SITL
+   │
+   │ uXRCE-DDS / UDP 8888
+   ↓
+MicroXRCE-DDS Agent
+   │
+   ↓
+ROS 2 Jazzy
+   ├── px4_msgs
+   ├── px4_ros_com
+   └── Teleoperation / autonomy nodes
+```
